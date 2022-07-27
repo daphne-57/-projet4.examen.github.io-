@@ -51,6 +51,9 @@ p {
     font-size : 16px;
     color: #000000;
 }
+.bold {
+    font-weight: 700;
+}
 #page-loading-blocs-notifaction {
 position : fixed;
 top : 0;
@@ -564,7 +567,7 @@ background-color : #D44502;
 .tc-black:hover {
     color : #cccccc;
 }
-.tc-tabgerine{
+.tc-tangerine{
     color: #D44502;
 }
 .tc-light-tangerine{
@@ -622,13 +625,14 @@ padding-right : 0;
 .navbar .nav {
 max-width : 80%;
 }
+}
 .nav-center.navbar .nav {
 max-width : 100%;
-}
 }
 @media (max-width: 991px) {
 .container {
 width : 100%;
+}
 }
 .b-parallax {
 background-attachment : scroll;
@@ -644,7 +648,7 @@ width : 100%;
 .bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge {
 padding : 0 20px;
 }
-}
+
 @media (max-width: 767px) {
 .bloc-mob-center-text {
 text-align : center;
