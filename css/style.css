@@ -18,20 +18,20 @@ cursor : pointer;
 /* titres h1 h2 h3 h4 */
 h2, h3, h4, h5, h6, p, label, .btn, a {
     font-family: 'Open Sans', sans-serif;
-    font-weight : 600;
+    font-weight : 700;
     color : #ffffff;
-    }
+}
 
 h1, h2, h3, h4, h5, h6, p, #disqus_thread {
     padding-left : 10px !important ;
     padding-right : 10px !important ;
-    }
+}
 h1 {
 color : #ffffff;
-font-size : 22px;
+font-size : 25px;
 }
 h2 {
-font-size : 20px;
+font-size : 22px;
 line-height : 1.4em;
 }
 h3 {
@@ -50,6 +50,13 @@ p {
     font-weight : 400;
     font-size : 16px;
     color: #000000;
+}
+.italic{
+    font-style: italic;
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
 .bold {
     font-weight: 700;
@@ -71,8 +78,8 @@ background-size : cover;
 position : relative;
 }
 .bloc .container {
-padding-left : 0;
-padding-right : 0;
+padding-left : 5%;
+padding-right : 5%;
 }
 .bloc-lg {
 padding : 100px 50px;
@@ -276,6 +283,12 @@ right : 0;
 .nav-center {
 text-align : center;
 }
+.nav-left{
+text-align : left;
+}
+.nav-justify{
+text-align: justify;
+}
 .nav-center .navbar-header {
 width : 100%;
 }
@@ -395,13 +408,13 @@ font-size : 14px;
 opacity : 1;
 }
 a[data-lightbox] {
-position : relative;
-display : block;
-text-align : center;
+    position: relative;
+    display: block;
+    text-align: center;
 }
 a[data-lightbox]:hover::before {
 content : "+";
-font-family : "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+font-family: 'Open Sans', sans-serif;
 font-size : 32px;
 width : 50px;
 height : 50px;
@@ -414,10 +427,12 @@ z-index : 1;
 position : absolute;
 top : 50%;
 transform : translateY(-50%);
+text-align: center;
 }
 a[data-lightbox]:hover img {
 opacity : 0.6;
 animation-fill-mode : none;
+text-align: center;
 }
 #lightbox-modal {
 display : flex;
@@ -503,10 +518,11 @@ font-weight : lighter;
 max-width : 520px;
 margin : auto auto auto auto;
 }
+/*
 .tight-width-whitespace {
-max-width : 600px;
+max-width : 90%;
 margin : auto auto auto auto;
-}
+}*/
 
 .cta-hero {
 margin-top : 22px;
@@ -515,6 +531,7 @@ text-transform : uppercase;
 padding : 12px 28px 12px 28px;
 font-size : 16px;
 font-weight : 700;
+max-width : 90%;
 }
 .social {
 max-width : 400px;
@@ -536,17 +553,20 @@ color : #FFFFFF !important ;
 }
 .portfolio-thumb {
 margin-bottom : 24px;
+padding: inherit;
 }
 .portfolio-row {
 margin-bottom : 44px;
 margin-top : 50px;
+padding: inherit;
 }
 .avatar {
 box-shadow : 0 4px 9px rgb(0, 0, 0, 0.3);
 }
+/*
 .black-background {
 padding : 40px 40px 40px 40px;
-}
+}*/
 .bold-link {
 font-weight : 900;
 text-decoration : underline;
@@ -581,8 +601,16 @@ background : #D44502;
 color : #FFFFFF !important ;
 }
 .btn-atomic-tangerine:hover {
-background : #D44502 !important ;
+background : #F9B89A  !important ;
 color : #FFFFFF !important ;
+}
+.btn-white {
+    background : #ffffff !important ;
+    color : #D44502!important ;
+}
+.btn-white:hover {
+    background : #F9B89A  !important ;
+    color : #FFFFFF !important ;
 }
 .ltc-white {
 color : #FFFFFF !important ;
@@ -603,11 +631,11 @@ color : #D44502 !important ;
 background-image : url("/img/dots-bg.png");
 }
 .bg-lines-h2-bg {
-background-image : url("/img/lines-h2-bg.png");
+background-image : url("/img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
-background-image : url("/img/agence-la-panthere.jpg");
+background-image : url("/img/agence-la-panthere.webp");
 }
 
 @media (max-width: 1024px) {

@@ -1052,13 +1052,15 @@ figure {
     margin: 0 
 }
 img {
-    vertical-align: middle 
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
 }
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto 
-}
+    height: auto;
+justify-content: center;}
 .img-rounded {
     border-radius: 6px 
 }
@@ -1073,7 +1075,9 @@ img {
     border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out 
+    transition: all .2s ease-in-out;
+    vertical-align: middle;
+    justify-content: center;
 }
 .img-circle {
     border-radius: 50% 
