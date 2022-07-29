@@ -1021,7 +1021,7 @@ td, th {
 }
 html {
     font-size: 10px;
-    -webkit-tap-highlight-color:#000000
+    -webkit-tap-highlight-color:#000000 
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -1060,7 +1060,8 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-justify-content: center;}
+    justify-content: center;
+}
 .img-rounded {
     border-radius: 6px 
 }
