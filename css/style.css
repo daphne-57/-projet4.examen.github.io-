@@ -758,6 +758,9 @@ a[data-lightbox]:hover img {
 .icon-dark-slate-blue {
     color : #D44502 !important ;
 }
+.bg-essai{
+    color: #D44502;
+}
 .bg-lines-h2-bg {
     background-image : url("/img/lines-h2-bg.webp");
 }
