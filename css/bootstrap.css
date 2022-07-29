@@ -1061,6 +1061,7 @@ img {
     max-width: 100%;
     height: auto;
     justify-content: center;
+    margin: auto;
 }
 .img-rounded {
     border-radius: 6px 
