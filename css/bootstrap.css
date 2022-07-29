@@ -1449,8 +1449,6 @@ pre code {
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom: 20px;
-
-
 }
 .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     float: left 
@@ -1609,8 +1607,13 @@ pre code {
     margin-left: 0 
 }
 @media (min-width:768px) {
-    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
-        float: left 
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2,  .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+        float: none;
+        margin: auto;
+   }
+   .col-sm-3, .col-sm-4 {
+    float: left;
+    margin: auto;
    }
     .col-sm-12 {
         width: 100% 
@@ -1631,7 +1634,7 @@ pre code {
         width: 58.33333333% 
    }
     .col-sm-6 {
-        width: 50% 
+        width: 80% 
    }
     .col-sm-5 {
         width: 41.66666667% 
@@ -2932,7 +2935,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 .btn-block {
     display: block;
-    width: 100% 
+    width: 250px;
 }
 .btn-block+.btn-block {
     margin-top: 5px 
