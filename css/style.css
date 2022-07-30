@@ -65,7 +65,7 @@ label {
     width: 100%;
     height: 400px;
     z-index: 99;
-    background: url("/img/agence-la-panthere-car.webp") center center no-repeat #FFFFFF;
+    background: url("../../img/agence-la-panthere-car.webp") center center no-repeat #FFFFFF;
     position : fixed;
     top : 0;
     bottom : 0;
@@ -769,11 +769,11 @@ a[data-lightbox]:hover img {
 .bg-essai{
     color: #D44502;
 }
-.bg-lines-h2-bg::before {
-    background-image : url("../img/lines-h2-bg.webp");
+.bg-lines-h2-bg {
+    background-image : url("../../img/lines-h2-bg.webp");
 }
-.bg-banniere::before {
-    background-image : url("../img/agence-la-panthere-car.webp");
+.bg-banniere {
+    background-image : url("../../img/agence-la-panthere-car.webp");
 }
 /* mediaqueries max-width: 992px min-width 768*/
 /**/
