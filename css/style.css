@@ -16,7 +16,7 @@ a:hover {
 /* titres h1 h2 h3 h4 */
 h2, h3, h4, h5, h6, p, .btn, a {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 700 !important ;
     color : #ffffff;
 }
 h1, h2, h3, h4, h5, h6, p, #disqus_thread {
@@ -221,9 +221,12 @@ label {
     line-height : 44px;
 }
 .navbar-brand img {
-    max-height : 200px;
+    height : 40px;
+    width: 216px;
     margin : 0 5px 0 0;
     display : inline;
+    min-width:80%;
+
 }
 .navbar-brand img[src$="svg"] {
     min-width : 100px;
@@ -663,7 +666,7 @@ a[data-lightbox]:hover img {
     text-transform : uppercase;
     padding : 12px 28px 12px 28px;
     font-size : 16px;
-    font-weight : 700;
+    font-weight : 700 !important ;
     max-width : 90%;
 }
 .social {
@@ -770,10 +773,10 @@ a[data-lightbox]:hover img {
     color: #D44502;
 }
 .bg-lines-h2-bg {
-    background-image : url("/img/lines-h2-bg.webp");
+    background-image : url("../img/lines-h2-bg.webp");
 }
 .bg-banniere {
-    background-image : url("/img/agence-la-panthere-car.webp");
+    background-image : url("../img/agence-la-panthere-car.webp");
 }
 /* mediaqueries max-width: 992px min-width 768*/
 /**/
