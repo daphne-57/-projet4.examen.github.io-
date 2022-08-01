@@ -770,7 +770,7 @@ a[data-lightbox]:hover img {
     color: #D44502;
 }
 .bg-lines-h2-bg {
-    background-image : url("/img/lines-h2-bg.webp");
+    background-image : url("..bg-lines-h2-bg/img/lines-h2-bg.webp");
 }
 .bg-banniere {
     background-image : url("/img/agence-la-panthere-car.webp");
