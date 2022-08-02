@@ -208,6 +208,7 @@ label {
     font-size: 32px;
     line-height: normal;
 }
+/* nav */
 .navbar {
     margin-bottom : 0;
     z-index : 1;
@@ -695,10 +696,6 @@ a[data-lightbox]:hover img {
 .avatar {
     box-shadow : 0 4px 9px rgb(0, 0, 0, 0.3);
 }
-/* .black-background {
-    padding : 40px 40px 40px 40px;
-}
-*/
 .bold-link {
     font-weight : 900;
     text-decoration : underline;
@@ -769,11 +766,9 @@ a[data-lightbox]:hover img {
 .bg-essai{
     color: #D44502;
 }
-/* lien img ??? */
 .bg-banniere {
     background-image : url("../img/agence-la-panthere-car.webp");
 }
-/* lien img ??? */
 .bg-lines-h2-bg {
     background-image : url("../img/lines-h2-bg.webp");
 }
