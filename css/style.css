@@ -770,12 +770,12 @@ a[data-lightbox]:hover img {
     color: #D44502;
 }
 /* lien img ??? */
-.bg-lines-h2-bg {
-    background-image : url("..bg-lines-h2-bg/img/lines-h2-bg.webp");
-}
-/* lien img ??? */
 .bg-banniere {
     background-image : url("../img/agence-la-panthere-car.webp");
+}
+/* lien img ??? */
+.bg-lines-h2-bg {
+    background-image : url("../img/lines-h2-bg.webp");
 }
 /* mediaqueries max-width: 992px min-width 768*/
 /**/
