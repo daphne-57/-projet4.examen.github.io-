@@ -1,0 +1,27 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+AddType application/vnd.ms-fontobject .eot 
+AddType application/x-font-ttf .ttf
+AddType application/x-font-opentype .otf
+AddType application/x-font-woff .woff
+AddType img/svg+xml .svg
+ExpiresByType application/vnd.ms-fontobject "access 1 year"
+ExpiresByType application/x-font-ttf "access 1 year"
+ExpiresByType application/x-font-opentype "access 1 year"
+ExpiresByType application/x-font-woff "access 1 year"
+ExpiresByType img/svg+xml "access 1 year"
+ExpiresByType text/html "access 1 hour"
+ExpiresByType text/css "access 14 days"
+ExpiresByType text/x-javascript "access 3 weeks"
+ExpiresByType application/javascript "access 1 month"  
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType img/gif "access 2 months"
+ExpiresByType img/png "access 2 months"
+ExpiresByType img/jpg "access 2 months"
+ExpiresByType img/jpeg "access 2 months"
+ExpiresByType img/webp "access 2 months"
+ExpiresByType application/pdf "access 1 year"
+ExpiresByType application/x-shockwave-flash "access 1 year"
+ExpiresByType img/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
+</IfModule>
