@@ -4,13 +4,14 @@ body{
     background:#FFF;
     overflow-x:hidden
 }
+/*
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     src: local('Open Sans'),url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap') format('ttf');
     font-display: swap;
-  }
+  }*/
 a,button{
     transition:all .3s ease-in-out;
     outline:0
