@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     background:#FFF;
-    overflow-x:hidden
+    overflow-x:hidden;
 }
 a,button{
     transition:all 0.3s ease-in-out;
@@ -916,7 +916,8 @@ p{
     color:#000
 }
 .l-bloc .navbar a{
-    color:#d44502
+    color:#d44502;
+    font-weight: 700!important;
 }
 .l-bloc .a-btn:hover,.l-bloc .navbar a:hover,.l-bloc .navbar-brand:hover,.l-bloc a:hover .icon-lg,.l-bloc a:hover .icon-md,.l-bloc a:hover .icon-sm,.l-bloc h1 a:hover,.l-bloc h2 a:hover,.l-bloc h3 a:hover,.l-bloc h4 a:hover,.l-bloc h5 a:hover,.l-bloc h6 a:hover,.l-bloc p a:hover{
     color:#000
@@ -976,7 +977,7 @@ p{
 .nav>li{
     float:left;
     margin-top:4px;
-    font-size:16px
+    font-size:16px;
 }
 .nav>li a:focus,.nav>li a:hover{
     background:0 0
