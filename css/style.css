@@ -128,6 +128,9 @@ label{
     font-size:30px;
     color: #D44502;
 }
+.navbar-contact a{
+    font-weight: 700!important;
+}
 .d-bloc .a-btn,.d-bloc .navbar a,.d-bloc .navbar-brand,.d-bloc a .icon-sm,.d-bloc a .icon-md,.d-bloc a .icon-lg,.d-bloc a .icon-xl,.d-bloc h1 a,.d-bloc h2 a,.d-bloc h3 a,.d-bloc h4 a,.d-bloc h5 a,.d-bloc h6 a,.d-bloc p a{
     color:#fff
 }
@@ -657,9 +660,10 @@ a[data-lightbox]:hover img{
     max-width:90%
 }
 .social{
-    max-width:430px;
+    max-width:460px;
     padding-top:40px;
-    margin:auto auto auto auto
+    margin:auto auto auto auto;
+    font-size: 28px;
 }
 .med-width-whitespace{
     max-width:800px;
@@ -914,6 +918,9 @@ p{
 }
 .l-bloc .a-btn,.l-bloc .navbar a,.l-bloc .navbar-brand,.l-bloc a .icon-lg,.l-bloc a .icon-md,.l-bloc a .icon-sm,.l-bloc h1 a,.l-bloc h2 a,.l-bloc h3 a,.l-bloc h4 a,.l-bloc h5 a,.l-bloc h6 a,.l-bloc p a{
     color:#000
+}
+.navbar-contact a{
+    font-weight: 700!important;
 }
 .l-bloc .navbar a{
     color:#d44502;
@@ -1200,9 +1207,10 @@ a[data-lightbox]:hover img{
     max-width:90%
 }
 .social{
-    max-width:430px;
+    max-width:440px;
     padding-top:40px;
-    margin:auto auto auto auto
+    margin:auto auto auto auto;
+    font-size: 28px;
 }
 .med-width-whitespace{
     max-width:800px;
