@@ -501,8 +501,6 @@ button {
 	font-size: 30px
 }
 
-.fa-chart-line,
-.fa-window-maximize,
 .icon-lg {
 	font-size: 60px
 }
@@ -1192,13 +1190,6 @@ button {
 	text-shadow: 0 1px 0 rgb(0, 0, 1, .1);
 	box-shadow: 0 1px 3px rgb(0, 0, 1, .25), 0 1px 0 0 rgb(255, 255, 255, .15) inset
 }
-
-.icon-md {
-	font-size: 30px
-}
-
-.fa-chart-line,
-.fa-window-maximize,
 .icon-lg {
 	font-size: 60px
 }
@@ -1355,21 +1346,9 @@ a[data-lightbox]:hover img {
 .bg-lines-h2-bg {
 	background-image: url(https://daphne-57.github.io/projet4-examen.github.io/img/lines-h2-bg.webp)
 }
-
-@media (max-width:992px) and (min-width:768px) {
-	.navbar .nav {
-		max-width: 80%
-	}
-}
-
 .nav-center.navbar .nav {
 	max-width: 100%
 }
-
-@media (max-width:991px) {
-	.container {
-		width: 100%
-	}
 }
 
 .b-parallax {
@@ -1382,6 +1361,16 @@ a[data-lightbox]:hover img {
 	position: relative
 }
 
+@media (max-width:992px) and (min-width:768px) {
+	.navbar .nav {
+		max-width: 80%
+	}
+}
+@media (max-width:991px) {
+	.container {
+		width: 100%
+	}
+    }
 @media (max-width:1024px) {
 	.bloc {
 		padding-left: 20px;
