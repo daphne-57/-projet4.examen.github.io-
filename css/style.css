@@ -16,19 +16,6 @@ a:hover {
 	cursor: pointer
 }
 
-.btn,
-a,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700 !important;
-	color: #fff
-}
-
 h1,
 h2,
 h3,
@@ -41,24 +28,27 @@ p {
 }
 
 h1 {
-	color: #fff;
-	font-size: 34px
+	font-size: 36px;
+	line-height: 1.4em;
+    font-weight: 600;
 }
 
 h2 {
-	font-size: 22px;
-	line-height: 1.4em
+	font-size:26px;
+	line-height: 1.4em;
+    font-weight: 600;
 }
 
 h3 {
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #000
+	font-size: 24px;
+    line-height: 1.4em;
+    font-weight: 600;
 }
 
 h4 {
-	color: #000 !important;
-	font-size: 16px
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: 600;
 }
 
 p {
@@ -74,6 +64,9 @@ p {
 
 .uppercase {
 	text-transform: uppercase
+}
+.semi-bold{
+    font-weight: 600;
 }
 
 .bg-banniere {
@@ -249,12 +242,6 @@ p {
 	padding-right: 0;
 	padding-left: 0
 }
-
-#bloc-1-hero h1 {
-	font-size: 32px;
-	line-height: normal
-}
-
 .navbar {
 	margin-bottom: 0;
 	z-index: 1
@@ -690,85 +677,6 @@ a[data-lightbox]:hover img {
 		padding-right: 20px
 	}
 }
-
-body {
-	margin: 0;
-	padding: 0;
-	background: #fff;
-	overflow-x: hidden
-}
-
-a,
-button {
-	transition: all .3s ease-in-out;
-	outline: 0
-}
-
-a:hover {
-	text-decoration: none;
-	cursor: pointer
-}
-
-.btn,
-a,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 700 !important;
-	color: #fff
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-	padding-left: 10px !important;
-	padding-right: 10px !important
-}
-
-h1 {
-	color: #fff;
-	font-size: 34px
-}
-
-h2 {
-	font-size: 22px;
-	line-height: 1.4em
-}
-
-h3 {
-	font-size: 18px;
-	text-transform: uppercase;
-	color: #000
-}
-
-h4 {
-	color: #000 !important;
-	font-size: 16px
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	color: #000
-}
-
-.italic {
-	font-style: italic
-}
-
-.uppercase {
-	text-transform: uppercase
-}
-
 .bg-banniere {
 	width: 100%;
 	height: 400px;
@@ -943,12 +851,6 @@ p {
 	padding-right: 0;
 	padding-left: 0
 }
-
-#bloc-1-hero h1 {
-	font-size: 32px;
-	line-height: normal
-}
-
 .navbar {
 	margin-bottom: 0;
 	z-index: 1
