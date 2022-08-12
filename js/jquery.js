@@ -10360,7 +10360,7 @@ jQuery.parseHTML = function( data, context, keepScripts ) {
 jQuery.fn.load = function( url, params, callback ) {
 	var selector, type, response,
 		self = this,
-		off = url.indexOf( " " ) : -1;
+		off = url.indexOf( " " );
 
 	if ( off > -1 ) {
 		selector = stripAndCollapse( url.slice( off ) );
