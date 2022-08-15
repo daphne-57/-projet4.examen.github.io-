@@ -85,7 +85,8 @@ p {
 	padding-right: 20px
 }
 .bloc-lg {
-	padding: 50px 50px
+	padding-top: 10%;
+	height:400px;
 }
 
 .bloc-md {
@@ -382,7 +383,7 @@ a[data-lightbox]:hover img {
 	margin: auto auto auto auto;
 	box-shadow: 0 0 0 #000;
 	padding-top: 70px;
-	padding-bottom: 70px
+	padding-bottom: 40px
 }
 .icons {
 	margin-bottom: 14px;
@@ -408,7 +409,8 @@ a[data-lightbox]:hover img {
 	color: #ccc
 }
 .tc-tangerine {
-	color: #d44502
+    color: #d44502;
+    padding-bottom: 20px;
 }
 .tc-white {
 	color: #fff
@@ -498,12 +500,13 @@ a[data-lightbox]:hover img {
 .l-bloc p a:hover {
 	color: #000
 }
+/*
 .voffset {
 	margin-top: 30px
-}
+}*/
 
 .voffset-lg {
-	margin-top: 80px
+	padding-top: 50px;
 }
 .col-sm-6 img{
 	justify-content: center;
@@ -524,19 +527,64 @@ a[data-lightbox]:hover img {
 .nav-center.navbar .nav {
 	max-width: 100%
 }
+.cta-hero {
+	margin-top: 22px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700 !important;
+	max-width: 100%;
+	margin-bottom: 50px;
+	}
 /* (min-width:769px) and (max-width:992px) */
 /*--------------------------------------------*/
 @media (min-width:769px) and (max-width:992px) {
+	.bloc-lg {
+		padding-top: 10%;
+	}
+	.tc-tangerine {
+		color: #d44502;
+		padding-bottom: 20px;
+	}
+	.cta-hero {
+		margin-top: 22px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700 !important;
+		max-width: 100%;
+		margin-bottom: 50px;
+		}
 }
 /* (min-width:401px) and (max-width:768px) */
 /*--------------------------------------------*/
 @media (min-width:401px) and (max-width:768px){
-	/*.site-navigation {
-		position: absolute;
-		top: 50%;
-		right: 20px;
-		transform: translate(0, -50%)
-	}*/
+	h1 {
+		font-size: 28px;
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+	}
+	h2 {
+		font-size:26px;
+	}
+	h3 {
+		font-size: 23px;
+	}
+	p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		color: #000
+	}
+	.tc-tangerine {
+		color: #d44502;
+		padding-bottom: 20px;
+	}
+	.bloc .container {
+		padding-top: 20%;
+		}
 	.nav-center .site-navigation {
 		position: relative;
 		width: 100%;
@@ -565,10 +613,13 @@ a[data-lightbox]:hover img {
 		background: rgb(0, 0, 0, .08)
 	}
 	.nav-center {
-		text-align: center
+		text-align: center;
 	}
 	.nav-justify {
-		text-align: justify
+		text-align: justify;
+	}
+	.nav-left {
+		text-align: left;
 	}
 	.nav-center .navbar-header {
 		width: 100%
@@ -579,11 +630,94 @@ a[data-lightbox]:hover img {
 		float: none;
 		display: inline-block
 	}
+	.cta-hero {
+		margin-top: 22px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-weight: 700 !important;
+		max-width: 100%;
+		margin-bottom: 50px;
+		}
 }
 /* (max-width:400px */
 /*-------------------*/
 @media (max-width:400px){
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size:23px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 15px;
+		color: #000
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
 	.navbar .nav {
 		max-width: 70%
 	}
+	.navbar-brand img {
+		height: 40px;
+		width: 216px;
+		margin: 0;
+		display: inline;
+		min-width: 80%;
+		max-width: 90%;
+	}
+	.tc-tangerine {
+		padding-bottom: 20px;
+	}
+	.bloc-sm {
+		padding: 20px 0px 20px 0px;
+	}
+	.navbar-toggle {
+		margin: 10px 0px 0 0;
+		border: 0;
+	}
+	.navbar-brand {
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+	.cta-hero {
+		margin-top: 22px;
+		color: #fff;
+		text-transform: uppercase;
+		/* padding: 12px 28px 12px 28px; */
+		font-size: 14px;
+		font-weight: 700 !important;
+		max-width: 100%;
+		margin-bottom: 50px;
+		}
+	.colsm12-largeur{
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+		margin-left: 0px!important;
+		margin-left: 0px!important;
+	}
+	.bloc {
+		padding-left: 15px;
+		padding-right: 15px;
+
+	}
+	.col-sm-12{
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+		margin-left: 0px!important;
+		margin-left: 0px!important;
+
+	}
+
+.bloc .container {
+    height: max-content;
+    max-height: fit-content;
 }
