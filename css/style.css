@@ -78,8 +78,10 @@ p {
 }
 .bloc .container {
 	padding-left: 5%;
-	padding-right: 5%
-}
+	padding-right: 5%;
+	height: max-content;
+	max-height: fit-content;
+		}
 .bloc {
 	padding-left: 20px;
 	padding-right: 20px
@@ -94,7 +96,7 @@ p {
 }
 
 .bloc-sm {
-	padding: 50px 50px
+	padding: 50px 0px 50px 0px;
 }
 .bg-b-edge, .bg-br-edge, .bg-center, .bg-l-edge, .bg-r-edge, .bg-repeat, .bg-t-edge {
 	background-size: auto
@@ -450,8 +452,10 @@ a[data-lightbox]:hover img {
 }
 .bloc .container {
 	padding-left: 5%;
-	padding-right: 5%
-}
+	padding-right: 5%;
+	height: max-content;
+	max-height: fit-content;
+	}
 .bg-b-edge,
 .bg-br-edge,
 .bg-center,
@@ -555,51 +559,82 @@ a[data-lightbox]:hover img {
 		max-width: 100%;
 		margin-bottom: 50px;
 		}
+		.bloc-sm {
+			padding: 40px 0px 40px 0px;
+		}
+		h1 {
+			font-size: 36px;
+			line-height: 1.4em;
+			font-weight: 600;
+		}
+		h2 {
+			font-size:26px;
+			line-height: 1.4em;
+			font-weight: 600;
+		}
+		h3 {
+			font-size: 24px;
+			line-height: 1.4em;
+			font-weight: 600;
+		}
+		h4 {
+			font-size: 20px;
+			line-height: 1.4em;
+			font-weight: 600;
+		}
+		p {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			color: #000
+		}
 }
 /* (min-width:401px) and (max-width:768px) */
 /*--------------------------------------------*/
 @media (min-width:401px) and (max-width:768px){
 	h1 {
-		font-size: 28px;
-		padding-left: 0px!important;
-		padding-right: 0px!important;
-		margin-left: 0px!important;
-		margin-right: 0px!important;
+		font-size: 32px;
 	}
 	h2 {
-		font-size:26px;
+		font-size:28px;
 	}
 	h3 {
-		font-size: 23px;
+		font-size: 24px;
 	}
 	p {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		font-size: 16px;
-		color: #000
+		color: #000;
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-top: 20%;
+    	margin-bottom: 10%;
+	}
+	.bloc-sm {
+		padding: 30px 0px 30px 0px;
 	}
 	.tc-tangerine {
 		color: #d44502;
 		padding-bottom: 20px;
 	}
-	.bloc .container {
-		padding-top: 20%;
-		}
 	.nav-center .site-navigation {
 		position: relative;
 		width: 100%;
 		right: 0;
 		margin-right: 0;
-		margin-top: 20px
+		margin-top: 20px;
 	}
 	.navbar .nav {
 		padding-top: 0;
 		border-top: 1px solid rgb(0, 0, 0, .2);
-		float: none !important
+		float: none !important;
 	}
 	.site-navigation {
 		position: inherit;
-		transform: none
+		transform: none;
 	}
 	.nav>li {
 		margin-top: 0;
@@ -607,7 +642,7 @@ a[data-lightbox]:hover img {
 		background: rgb(0, 0, 0, .05);
 		text-align: left;
 		padding-left: 15px;
-		width: 100%
+		width: 100%;
 	}
 	.nav>li:hover {
 		background: rgb(0, 0, 0, .08)
@@ -622,13 +657,13 @@ a[data-lightbox]:hover img {
 		text-align: left;
 	}
 	.nav-center .navbar-header {
-		width: 100%
+		width: 100%;;
 	}
 	.nav-center .nav>li,
 	.nav-center .navbar-brand,
 	.nav-center .navbar-header {
 		float: none;
-		display: inline-block
+		display: inline-block;
 	}
 	.cta-hero {
 		margin-top: 22px;
@@ -639,6 +674,12 @@ a[data-lightbox]:hover img {
 		max-width: 100%;
 		margin-bottom: 50px;
 		}
+		.bloc .container {
+		padding-left: 5%;
+		padding-right: 5%;
+		height: max-content;
+		max-height: fit-content;
+			}
 }
 /* (max-width:400px */
 /*-------------------*/
@@ -647,7 +688,7 @@ a[data-lightbox]:hover img {
 		font-size: 24px;
 	}
 	h2 {
-		font-size:23px;
+		font-size:22px;
 	}
 	h3 {
 		font-size: 20px;
@@ -661,6 +702,8 @@ a[data-lightbox]:hover img {
 	h1, h2, h3, h4, h5, h6, p {
 		padding-left: 0px !important;
 		padding-right: 0px !important;
+		margin-top: 20%;
+    	margin-bottom: 10%;
 	}
 	.navbar .nav {
 		max-width: 70%
@@ -677,7 +720,7 @@ a[data-lightbox]:hover img {
 		padding-bottom: 20px;
 	}
 	.bloc-sm {
-		padding: 20px 0px 20px 0px;
+		padding: 30px 0px 30px 0px;
 	}
 	.navbar-toggle {
 		margin: 10px 0px 0 0;
@@ -698,26 +741,25 @@ a[data-lightbox]:hover img {
 		max-width: 100%;
 		margin-bottom: 50px;
 		}
+		.bloc {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 	.colsm12-largeur{
 		padding-left: 0px!important;
 		padding-right: 0px!important;
 		margin-left: 0px!important;
 		margin-left: 0px!important;
 	}
-	.bloc {
-		padding-left: 15px;
-		padding-right: 15px;
 
-	}
 	.col-sm-12{
 		padding-left: 0px!important;
 		padding-right: 0px!important;
 		margin-left: 0px!important;
 		margin-left: 0px!important;
-
 	}
-
-.bloc .container {
+	.bloc .container {
     height: max-content;
     max-height: fit-content;
+	}
 }
