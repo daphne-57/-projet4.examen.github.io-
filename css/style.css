@@ -5,10 +5,12 @@ body {
     overflow-x: hidden 
 }
 @font-face {
-    font-family: 'Pacifico';
+
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    url('../fonts/open-sans-v16-latin-400.woff2') format('woff2');
+    url('../fonts/open-sans-v16-latin-400.woff') format('woff'); 
     font-display: swap;
   }
 a, button {
