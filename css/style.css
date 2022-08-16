@@ -477,15 +477,6 @@ a[data-lightbox]:hover img {
         color: #d44502;
         padding-bottom: 20px 
    }
-    .cta-hero {
-        margin-top: 22px;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 700 !important;
-        max-width: 100%;
-        margin-bottom: 50px 
-   }
     .bloc-sm {
         padding: 40px 0 40px 0 
    }
@@ -535,7 +526,6 @@ a[data-lightbox]:hover img {
     h1, h2, h3, h4, h5, h6, p {
         padding-left: 0 !important;
         padding-right: 0 !important;
-        margin-top: 20%;
         margin-bottom: 10% 
    }
     .bloc-sm {
