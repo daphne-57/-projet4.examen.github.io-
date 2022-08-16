@@ -1,3 +1,9 @@
+/*la taille des contenus tient compte du border et du padding*/
+*
+{
+	box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -268,6 +274,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center 
+	
 }
 a[data-lightbox]:hover::before {
     content: "+";
@@ -289,7 +296,8 @@ a[data-lightbox]:hover::before {
 a[data-lightbox]:hover img {
     opacity: .6;
     animation-fill-mode: none;
-    text-align: center 
+    text-align: center;
+	vertical-align: middle;
 }
 .lightbox-caption {
     padding: 20px;
@@ -556,6 +564,9 @@ a[data-lightbox]:hover img {
     .nav-center .nav>li, .nav-center .navbar-brand, .nav-center .navbar-header {
         float: none;
         display: inline-block 
+   }
+   img .col-sm-6{
+    margin: 0 auto;
    }
     .cta-hero {
         margin-top: 22px;
