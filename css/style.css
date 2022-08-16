@@ -429,10 +429,7 @@ a[data-lightbox]:hover img {
     padding-top: 50px 
 }
 .col-sm-6 img {
-    justify-content: center;
-    text-align: center;
-   /* padding: auto;
-    margin: auto */
+    margin: auto 
 }
 .social {
     max-width: 440px;
@@ -513,7 +510,6 @@ a[data-lightbox]:hover img {
     h1, h2, h3, h4, h5, h6, p {
         padding-left: 0 !important;
         padding-right: 0 !important;
-        margin-bottom: 10% 
    }
     .bloc-sm {
         padding: 30px 0 30px 0 
@@ -603,8 +599,6 @@ a[data-lightbox]:hover img {
     h1, h2, h3, h4, h5, h6, p {
         padding-left: 0 !important;
         padding-right: 0 !important;
-        margin-top: 20%;
-        margin-bottom: 10% 
    }
     .navbar .nav {
         max-width: 70% 
