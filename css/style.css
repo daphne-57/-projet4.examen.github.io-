@@ -390,11 +390,18 @@ a[data-lightbox]:hover img {
 .icon-dark-slate-blue {
     color: #d44502 !important 
 }
+/*
 .bg-banniere {
-    background-image: url(https://daphne-57.github.io/projet4-examen.github.io/img/agence-la-panthere-car.webp) 
+    background-image: url("https://daphne-57.github.io/projet4-examen.github.io/img/agence-la-panthere-car.webp") 
 }
 .bg-lines-h2-bg {
-    background-image: url(https://daphne-57.github.io/projet4-examen.github.io/img/lines-h2-bg.webp)
+    background-image: url("https://daphne-57.github.io/projet4-examen.github.io/img/lines-h2-bg.webp")
+}*/
+.bg-banniere {
+    background-image: url("/img/agence-la-panthere-car.webp") 
+}
+.bg-lines-h2-bg {
+    background-image: url("/img/lines-h2-bg.webp")
 }
 .b-parallax {
     background-attachment: scroll 
