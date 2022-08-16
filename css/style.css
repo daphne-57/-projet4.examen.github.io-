@@ -4,27 +4,6 @@ body {
     background: #fff;
     overflow-x: hidden 
 }
-/* open-sans-regular - latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/open-sans-v29-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/open-sans-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/open-sans-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/open-sans-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/open-sans-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/open-sans-v29-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
-  }
-  @font-face {
-    font-family: 'Font Awesome 6 Free';
-    font-style: normal;
-    font-weight: 900;
-    font-display: block;
-    src: url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.ttf") format("truetype"); 
-}
-
 a, button {
     transition: all .3s ease-in-out;
     outline: 0 
@@ -670,4 +649,8 @@ a[data-lightbox]:hover img {
         height: max-content;
         max-height: fit-content 
    }
+   .col-sm-6 img {
+    width: 100%;
+    }
+
 }
