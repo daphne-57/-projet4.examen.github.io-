@@ -394,7 +394,7 @@ a[data-lightbox]:hover img {
     background-image: url(https://daphne-57.github.io/projet4-examen.github.io/img/agence-la-panthere-car.webp) 
 }
 .bg-lines-h2-bg {
-    background-image: url(https://daphne-57.github.io/projet4-examen.github.io/img/lines-h2-bg.webp) 
+    background-image: url(https://daphne-57.github.io/projet4-examen.github.io/img/lines-h2-bg.webp)
 }
 .b-parallax {
     background-attachment: scroll 
@@ -561,9 +561,9 @@ a[data-lightbox]:hover img {
         float: none;
         display: inline-block 
    }
-   img .col-sm-6{
-    margin: 0 auto;
-   }
+   .col-sm-6 img {
+    margin: auto 
+}
     .cta-hero {
         margin-top: 22px;
         color: #fff;
@@ -655,7 +655,7 @@ a[data-lightbox]:hover img {
         max-height: fit-content 
    }
    .col-sm-6 img {
-    width: 100%;
+    margin: auto 
     }
 
 }
